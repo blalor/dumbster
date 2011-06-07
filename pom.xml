@@ -30,6 +30,22 @@
         </license>
     </licenses>
     
+    <!--
+        the following's required to even make the deploy task start; use altDeploymentRepository.
+    -->
+    <distributionManagement>
+        <repository>
+            <id>repo</id>
+            <name>Repository Name</name>
+            <url>scp://host/path/to/repo</url>
+        </repository>
+        <snapshotRepository>
+            <id>repo</id>
+            <name>Repository Name</name>
+            <url>scp://host/path/to/repo</url>
+        </snapshotRepository>
+    </distributionManagement>
+    
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>

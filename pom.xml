@@ -12,12 +12,13 @@
     <description>
          fake SMTP server
     </description>
+
     <url>https://github.com/blalor/dumbster</url>
     
     <scm>
-        <connection>scm:git:https://github.com/blalor/dumbster.git</connection>
         <url>https://github.com/blalor/dumbster</url>
-        <developerConnection>scm:git:git@github.com:blalor/dumbster.git</developerConnection>
+        <connection>scm:git:https://github.com/blalor/dumbster.git</connection>
+        <developerConnection>scm:git:${githubUserAndHost}:blalor/dumbster.git</developerConnection>
     </scm>
     
     <licenses>
@@ -45,7 +46,7 @@
         
         <site>
             <id>github-project-site</id>
-            <url>gitsite:git@github.com/blalor/dumbster</url>
+            <url>gitsite:${githubUserAndHost}/blalor/dumbster</url>
         </site>
     </distributionManagement>
     
@@ -205,4 +206,26 @@
             </plugin>
         </plugins>
     </reporting>
+    
+    <profiles>
+        <profile>
+            <id>github-public-properties</id>
+            
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            
+            <properties>
+                <githubUserAndHost>git@github.com</githubUserAndHost>
+            </properties>
+        </profile>
+        
+        <profile>
+            <id>github-tunneled</id>
+            
+            <properties>
+                <githubUserAndHost>github_tun</githubUserAndHost>
+            </properties>
+        </profile>
+    </profiles>
 </project>

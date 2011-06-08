@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="4.2.5" timestamp="2011-06-08T09:17:05.840">
+<pmd version="4.2.5" timestamp="2011-06-08T09:59:08.606">
 <file name="/Users/ulalobr/devel/build_roots/rumba/dumbster/src/com/dumbster/smtp/ClientSession.java">
 <violation beginline="30" endline="31" begincolumn="11" endcolumn="9" rule="EmptyCatchBlock" ruleset="Basic Rules" package="com.dumbster.smtp" class="ClientSession" method="run" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
 Avoid empty catch blocks
@@ -18,6 +18,11 @@ Avoid empty catch blocks
 Avoid empty catch blocks
 </violation>
 <violation beginline="110" endline="111" begincolumn="11" endcolumn="9" rule="EmptyCatchBlock" ruleset="Basic Rules" package="com.dumbster.smtp" class="SimpleSmtpServer" method="stop" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/Users/ulalobr/devel/build_roots/rumba/dumbster/src/com/dumbster/smtp/action/List.java">
+<violation beginline="18" endline="19" begincolumn="11" endcolumn="9" rule="EmptyCatchBlock" ruleset="Basic Rules" package="com.dumbster.smtp.action" class="List" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
 Avoid empty catch blocks
 </violation>
 </file>

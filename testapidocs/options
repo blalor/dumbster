@@ -3,6 +3,7 @@
 -encoding
 'UTF-8'
 -protected
+-quiet
 -sourcepath
 '/Users/ulalobr/devel/build_roots/rumba/dumbster/test-src'
 -author
@@ -14,12 +15,15 @@
 '/Users/ulalobr/devel/build_roots/rumba/dumbster/target/site/testapidocs'
 -docencoding
 'UTF-8'
+-docfilessubdirs
 -doctitle
 'Dumbster 1.9.0.1-SNAPSHOT Test API'
 -link
 '../apidocs'
 -linkoffline
 'http://download.oracle.com/javase/6/docs/api' '/Users/ulalobr/devel/build_roots/rumba/dumbster/target/javadoc-bundle-options'
+-stylesheetfile
+'/Users/ulalobr/devel/build_roots/rumba/dumbster/src/main/javadoc/resources/spring-javadoc.css'
 -use
 -version
 -windowtitle

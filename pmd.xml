@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="4.2.5" timestamp="2011-06-08T09:59:08.606">
+<pmd version="4.2.5" timestamp="2011-06-08T10:04:06.643">
 <file name="/Users/ulalobr/devel/build_roots/rumba/dumbster/src/com/dumbster/smtp/ClientSession.java">
 <violation beginline="30" endline="31" begincolumn="11" endcolumn="9" rule="EmptyCatchBlock" ruleset="Basic Rules" package="com.dumbster.smtp" class="ClientSession" method="run" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
 Avoid empty catch blocks

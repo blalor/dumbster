@@ -20,6 +20,7 @@
 'Dumbster 1.9.0.1-SNAPSHOT API'
 -linkoffline
 'http://download.oracle.com/javase/6/docs/api' '/Users/ulalobr/devel/build_roots/rumba/dumbster/target/javadoc-bundle-options'
+-notimestamp
 -stylesheetfile
 '/Users/ulalobr/devel/build_roots/rumba/dumbster/src/main/javadoc/resources/spring-javadoc.css'
 -use
